@@ -13,7 +13,7 @@ library(MuMIn)
 
 #Extracting the time-series data for the FTSE 100 stocks. 
 
-stockData <- read_excel("/Users/giancarlonannetti/Documents/Coding/Academic Projects/R/UKX_2019-2024_STATIC.xlsx", skip = 2, col_names = TRUE)
+stockData <- read_excel("ADD-YOUR-PATH-TO-THE-DATASET-HERE.xlsx", skip = 2, col_names = TRUE)
 
 #Check the stockData Info
 
